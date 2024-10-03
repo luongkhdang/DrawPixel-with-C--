@@ -222,19 +222,18 @@ Reserved space in the projectedPoints vector to reduce reallocations.
 Used SDL_RenderDrawLineF for efficient line drawing.
 
 10) Different Transformations per Viewport:
-Viewport 0: Standard rotation.
-Viewport 1: Reverse rotation on the X-axis.
-Viewport 2: Reverse rotation on the Y-axis.
+Viewport 0: the cube rotates in the x-w plane.
+Viewport 1: Increased rotation speed for extra dynamism, added a pulsating golden sphere that changes size over time.
+Viewport 2: the cube rotates in the y-w plane.
 Viewport 3: Reverse rotation on the Z-axis and zoomed-in view.
 
-11) Interactive Controls:
-Used keyboard inputs to control rotation speeds (UP, DOWN, LEFT, RIGHT, Q, E).
-Pressing ESCAPE exits the application.
-
-12) Visual Effects:
+11) Visual Effects:
 Implemented color coding for different edges:
+Defined a vertexColors vector containing colors for each vertex.
+Modified the drawLine function to interpolate colors between connected vertices.
+The cube's edges now display gradient colors based on the connected vertices.
  
-13) Performance Profiling:
+12) Performance Profiling:
 Ensured efficient rendering by optimizing loops and minimizing function calls.
 Used SDL_Delay(16) to cap the frame rate at approximately 60 FPS.
 
