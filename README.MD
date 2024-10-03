@@ -8,7 +8,7 @@ This project is a simple 3D wireframe renderer developed in C++ using the SDL2 l
 > > ![](demo.JPG)
 
 ## AI enhanced:
-> > ![](demo2.JPG)
+> > ![](AI-enhanced.gif)
 
 
 
