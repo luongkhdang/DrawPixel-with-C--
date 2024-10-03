@@ -4,7 +4,11 @@
 This project is a simple 3D wireframe renderer developed in C++ using the SDL2 library. It visualizes a rotating 3D cube by projecting its vertices onto a 2D screen and drawing the connecting edges. The application demonstrates fundamental concepts in graphics programming, including rendering loops, event handling, and basic 3D transformations. 
 
 ## Demo  
-[demo](demo.JPG)
+
+> > ![](demo.JPG)
+
+## AI enhanced:
+> > ![](demo2.JPG)
 
 
 
